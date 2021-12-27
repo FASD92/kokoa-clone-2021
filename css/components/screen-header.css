@@ -1,0 +1,24 @@
+.screen-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--horizontal-space);
+    margin-bottom: -15px; /* 원래 15px임 */
+}
+
+.screen-header__title{
+    font-size: 32px;
+    font-weight: 600;
+}
+.screen-header__icons span{
+    margin-left: var(--horizontal-space);
+}
+.screen-header__icons-reddot{
+    background-color: tomato;
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    position: absolute;
+    display: inline;
+    margin-top: -5px;
+}
