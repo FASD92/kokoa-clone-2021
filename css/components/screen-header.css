@@ -23,3 +23,16 @@
     display: inline;
     margin-top: -5px;
 }
+
+@keyframes rotateCog{
+    from{
+        transform: none;
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
+.screen-header .fa-cog:hover{
+    animation: rotateCog 1s linear infinite;
+}
