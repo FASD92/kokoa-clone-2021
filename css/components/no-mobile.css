@@ -3,7 +3,7 @@
     z-index: 99;
     height: 100vh;
     width: 100vw;
-    background-color:tomato;
+    background-color:var(--yellow);
     top: 0;
     display: flex;
     justify-content: center;
